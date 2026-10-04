@@ -62,4 +62,4 @@ https://github.com/mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/
 
 ## Tautan Live Preview
 
-   Tautan Live Preview: [https:github.com/mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/](https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/)
+      Tautan Live Preview: [https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/](https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/)
