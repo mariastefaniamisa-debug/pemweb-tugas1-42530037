@@ -22,31 +22,32 @@ Landing page portofolio (Tema C) dengan HTML5 semantik dan CSS modern tanpa fram
 ## Struktur Folder
 
 ```
-.
+pemweb-tugas1-42530037/
 ├── .gitignore
 ├── README.md
-├── assets
-│   └── images
+├── assets/
+│   └── images/
 │       ├── foto-profil.jpeg
 │       ├── proyek-1.jpeg
 │       └── proyek-2.jpeg
-├── css
+├── css/
 │   └── style.css
 └── index.html
-
+```
 
 ## Cara Menjalankan
 
-1. Clone repositori:
-```
-   git clone https://github.com/mariastefaniamisa-debug/pemweb-tugas1-42530037.git
-```
-2. Buka folder proyek di VS Code.
-3. Jalankan `index.html` dengan ekstensi Live Server, atau buka langsung file tersebut di browser.
+Clone repositori:
 
-## Demo
+```
+git clone https://github.com/mariastefaniamisa-debug/pemweb-tugas1-42530037.git
+```
 
-https://github.com/mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/
+Lalu buka folder proyek di VS Code, dan jalankan `index.html` dengan ekstensi Live Server atau buka langsung file tersebut di browser.
+
+## Tautan Live Preview
+
+[https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/](https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/)
 
 ## Teknologi
 
@@ -58,8 +59,3 @@ https://github.com/mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/
 ## Kontak
 
 - GitHub: [mariastefaniamisa-debug](https://github.com/mariastefaniamisa-debug)
-
-
-## Tautan Live Preview
-
-      Tautan Live Preview: [https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/](https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/)
