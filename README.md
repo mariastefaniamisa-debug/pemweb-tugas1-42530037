@@ -46,7 +46,7 @@ Landing page portofolio (Tema C) dengan HTML5 semantik dan CSS modern tanpa fram
 
 ## Demo
 
-https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/
+https://github.com/mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/
 
 ## Teknologi
 
@@ -62,4 +62,4 @@ https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/
 
 ## Tautan Live Preview
 
-   Tautan Live Preview: [https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/](https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/)
+   Tautan Live Preview: [https:github.com/mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/](https://mariastefaniamisa-debug.github.io/pemweb-tugas1-42530037/)
