@@ -1,0 +1,277 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Variabel CSS ===== */
+:root {
+    --warna-utama: #0f766e;
+    --warna-utama-gelap: #115e59;
+    --warna-aksen: #f97316;
+    --warna-latar: #ffffff;
+    --warna-latar-lembut: #ecfeff;
+    --warna-teks: #1f2937;
+    --warna-teks-lembut: #4b5563;
+    --font-utama: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    --radius: 0.75rem;
+    --jarak: 1.5rem;
+}
+
+/* ===== Dasar (mobile-first) ===== */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-utama);
+    color: var(--warna-teks);
+    background: var(--warna-latar);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a:focus-visible {
+    outline: 3px solid var(--warna-aksen);
+    outline-offset: 2px;
+}
+
+section {
+    padding: 3rem var(--jarak);
+}
+
+h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 1rem; }
+h2 { font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--warna-utama-gelap); }
+h3 { font-size: 1.15rem; margin: 0.75rem 0 0.4rem; }
+
+/* ===== Header & navigasi (Flexbox) ===== */
+.site-header {
+    background: var(--warna-utama);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem var(--jarak);
+}
+
+.logo {
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1rem;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.4rem;
+}
+
+.nav-list a:hover {
+    background: var(--warna-utama-gelap);
+}
+
+/* ===== Hero ===== */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    background: var(--warna-latar-lembut);
+}
+
+.hero-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid var(--warna-aksen);
+}
+
+.cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.4rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: var(--warna-aksen);
+    color: #1f1300;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--warna-utama-gelap);
+    border: 2px solid var(--warna-utama);
+}
+
+/* ===== Kartu proyek (CSS Grid) ===== */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: var(--radius);
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 5 / 3;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    background: var(--warna-latar-lembut);
+}
+
+.card p {
+    color: var(--warna-teks-lembut);
+}
+
+/* ===== Bagian berlatar lembut ===== */
+.section-tint {
+    background: var(--warna-latar-lembut);
+}
+
+/* ===== Keahlian ===== */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.skill-list li {
+    background: var(--warna-utama);
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+}
+
+.callout {
+    margin-top: 1.5rem;
+    padding: 1rem 1.25rem;
+    border-left: 5px solid var(--warna-aksen);
+    background: #fff;
+    border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* ===== Sertifikasi ===== */
+.cert-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #d1d5db;
+}
+
+/* ===== Kontak ===== */
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.contact-list a {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: var(--warna-utama);
+    color: #fff;
+    text-decoration: none;
+    border-radius: var(--radius);
+}
+
+.contact-list a:hover {
+    background: var(--warna-utama-gelap);
+}
+
+/* ===== Footer ===== */
+.site-footer {
+    background: var(--warna-utama-gelap);
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem var(--jarak);
+    font-size: 0.9rem;
+}
+
+/* ===== Tablet (min-width: 768px) ===== */
+@media (min-width: 768px) {
+    h1 { font-size: 2.6rem; }
+
+    .header-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .hero {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    }
+
+    .hero-text {
+    max-width: 32rem;
+    }
+
+    .hero-img {
+    width: 260px;
+    height: 260px;
+    }
+
+    .cta-group {
+    justify-content: flex-start;
+    }
+}
+
+/* ===== Desktop (min-width: 1024px) ===== */
+@media (min-width: 1024px) {
+    section {
+    padding: 4rem max(var(--jarak), calc((100% - 1100px) / 2));
+    }
+
+    .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    }
+
+    .hero {
+    gap: 4rem;
+    }
+
+    .hero-img {
+    width: 320px;
+    height: 320px;
+    }
+}
